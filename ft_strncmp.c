@@ -1,14 +1,15 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strncmp.c                                      :+:      :+:    :+:   */
+/*   ft_strncmp.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mbaylik <mbaylik@student.42istanbul.com.tr>+#+  +:+       +#+        */
+/*   By: mbaylik@student.42istanbul.com.tr          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/08/05 00:00:00 by mbaylik           +#+    #+#             */
-/*   Updated: 2026/08/05 00:00:00 by mbaylik          ###   ########.fr       */
+/*   Created: 2026/08/05 00:00:00 by mbaylik           #+#    #+#             */
+/*   Updated: 2026/08/06 14:26:38 by mbaylik          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
 #include "libft.h"
 
 int	ft_strncmp(const char *s1, const char *s2, size_t n)

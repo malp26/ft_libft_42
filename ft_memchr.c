@@ -1,14 +1,15 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_memchr.c                                       :+:      :+:    :+:   */
+/*   ft_memchr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mbaylik <mbaylik@student.42istanbul.com.tr>+#+  +:+       +#+        */
+/*   By: mbaylik@student.42istanbul.com.tr          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/08/05 00:00:00 by mbaylik           +#+    #+#             */
-/*   Updated: 2026/08/05 00:00:00 by mbaylik          ###   ########.fr       */
+/*   Created: 2026/08/05 00:00:00 by mbaylik           #+#    #+#             */
+/*   Updated: 2026/08/06 13:21:20 by mbaylik          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
 #include "libft.h"
 
 void	*ft_memchr(const void *s, int c, size_t n)

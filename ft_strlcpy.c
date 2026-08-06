@@ -1,14 +1,15 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strlcpy.c                                      :+:      :+:    :+:   */
+/*   ft_strlcpy.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mbaylik <mbaylik@student.42istanbul.com.tr>+#+  +:+       +#+        */
+/*   By: mbaylik@student.42istanbul.com.tr          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/08/05 00:00:00 by mbaylik           +#+    #+#             */
-/*   Updated: 2026/08/05 00:00:00 by mbaylik          ###   ########.fr       */
+/*   Created: 2026/08/05 00:00:00 by mbaylik           #+#    #+#             */
+/*   Updated: 2026/08/06 14:26:30 by mbaylik          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
 #include "libft.h"
 
 size_t	ft_strlcpy(char *dst, const char *src, size_t dstsize)

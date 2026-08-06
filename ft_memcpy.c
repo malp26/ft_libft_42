@@ -1,14 +1,15 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_memcpy.c                                       :+:      :+:    :+:   */
+/*   ft_memcpy.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mbaylik <mbaylik@student.42istanbul.com.tr>+#+  +:+       +#+        */
+/*   By: mbaylik@student.42istanbul.com.tr          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/08/05 00:00:00 by mbaylik           +#+    #+#             */
-/*   Updated: 2026/08/05 00:00:00 by mbaylik          ###   ########.fr       */
+/*   Created: 2026/08/05 00:00:00 by mbaylik           #+#    #+#             */
+/*   Updated: 2026/08/06 14:12:52 by mbaylik          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
 #include "libft.h"
 
 void	*ft_memcpy(void *dst, const void *src, size_t n)

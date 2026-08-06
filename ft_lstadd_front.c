@@ -1,14 +1,15 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_lstadd_front.c                                 :+:      :+:    :+:   */
+/*   ft_lstadd_front.c                                  :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mbaylik <mbaylik@student.42istanbul.com.tr>+#+  +:+       +#+        */
+/*   By: mbaylik@student.42istanbul.com.tr          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/08/05 00:00:00 by mbaylik           +#+    #+#             */
-/*   Updated: 2026/08/05 00:00:00 by mbaylik          ###   ########.fr       */
+/*   Created: 2026/08/05 00:00:00 by mbaylik           #+#    #+#             */
+/*   Updated: 2026/08/06 14:25:16 by mbaylik          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
 #include "libft.h"
 
 void	ft_lstadd_front(t_list **lst, t_list *new)
