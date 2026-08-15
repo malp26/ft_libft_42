@@ -6,30 +6,43 @@
 /*   By: mbaylik@student.42istanbul.com.tr          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/08/05 00:00:00 by mbaylik           #+#    #+#             */
-/*   Updated: 2026/08/06 14:25:51 by mbaylik          ###   ########.fr       */
+/*   Updated: 2026/08/15 01:58:40 by mbaylik          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void	*ft_memmove(void *dst, const void *src, size_t len)
+void	*ft_memmove(void *dest, const void *src, size_t n)
 {
 	unsigned char		*d;
 	const unsigned char	*s;
 
-	if (dst == src)
-		return (dst);
-	d = (unsigned char *)dst;
+	if (dest == src)
+		return (dest);
+	d = (unsigned char *)dest;
 	s = (const unsigned char *)src;
 	if (d < s)
-		ft_memcpy(d, s, len);
+		ft_memcpy(d, s, n);
 	else
 	{
-		while (len > 0)
+		while (n > 0)
 		{
-			len--;
-			d[len] = s[len];
+			n--;
+			d[n] = s[n];
 		}
 	}
-	return (dst);
+	return (dest);
+}
+
+#include <stdio.h>
+
+int	main(void)
+{
+	char	a[] = "abcdef";
+
+	ft_memmove(a, a + 2, 4);
+
+	printf("%s\n", a);
+
+	return (0);
 }

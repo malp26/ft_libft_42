@@ -6,11 +6,9 @@
 /*   By: mbaylik@student.42istanbul.com.tr          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/08/05 00:00:00 by mbaylik           #+#    #+#             */
-/*   Updated: 2026/08/06 14:24:47 by mbaylik          ###   ########.fr       */
+/*   Updated: 2026/08/15 03:26:00 by mbaylik          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include "libft.h"
 
 int	ft_isdigit(int c)
 {

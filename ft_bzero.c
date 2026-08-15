@@ -6,7 +6,7 @@
 /*   By: mbaylik@student.42istanbul.com.tr          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/08/05 00:00:00 by mbaylik           #+#    #+#             */
-/*   Updated: 2026/08/06 14:24:27 by mbaylik          ###   ########.fr       */
+/*   Updated: 2026/08/12 02:44:14 by mbaylik          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,5 +14,5 @@
 
 void	ft_bzero(void *s, size_t n)
 {
-	ft_memset(s, 0, n);
+	ft_memset (s, 0, n);
 }

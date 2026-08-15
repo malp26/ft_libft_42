@@ -6,12 +6,11 @@
 /*   By: mbaylik@student.42istanbul.com.tr          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/08/05 00:00:00 by mbaylik           #+#    #+#             */
-/*   Updated: 2026/08/06 14:26:07 by mbaylik          ###   ########.fr       */
+/*   Updated: 2026/08/15 03:31:00 by mbaylik          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <unistd.h>
 
 static void	put_positive(long long n, int fd)
 {
@@ -34,4 +33,11 @@ void	ft_putnbr_fd(int n, int fd)
 		value = -value;
 	}
 	put_positive(value, fd);
+}
+#include <fcntl.h>
+int main()
+{
+	int fd = open("test.txt", O_WRONLY | O_CREAT , 0645);
+	ft_putnbr_fd(45, fd);
+	close(fd);
 }

@@ -6,12 +6,11 @@
 /*   By: mbaylik@student.42istanbul.com.tr          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/08/05 00:00:00 by mbaylik           #+#    #+#             */
-/*   Updated: 2026/08/06 14:26:15 by mbaylik          ###   ########.fr       */
+/*   Updated: 2026/08/15 04:07:18 by mbaylik          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <stdlib.h>
 
 static size_t	word_count(char const *s, char c)
 {
@@ -89,4 +88,18 @@ char	**ft_split(char const *s, char c)
 	if (!words)
 		return (NULL);
 	return (fill_words(words, s, c));
+}
+
+#include <stdio.h>
+int main()
+{
+	char **array = ft_split("xmerhabaxdunyaxnasilsinx", 'x');
+	int i = 0;
+	while(array[i])
+	{
+		printf("%s\n", array[i]);
+		free(array[i++]);
+	}
+	free(array);
+	return(0);
 }
